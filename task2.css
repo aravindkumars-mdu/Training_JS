@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#mypage-header {
+  
+  top: 0;
+  width: 100%;
+  background-color: #004c99;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  height: 100px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  position: fixed; /* fixed header */
+}
+
+/* Add space below header so content isn’t hidden */
+body {
+  padding-top: 80px;
+  
+}
+
+
+#d1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: row-reverse; change the order*/
+  margin: 20px;
+}
+
+
+#mypage-centercontent {
+  flex: 3;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-right: 20px; 
+  font-size: 25px;
+  
+}
+
+
+#mypage-leftnav {
+  flex: 1;
+  order: 1; /*move to right side*/
+  background: #004c99;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 25px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+#mypage-leftnav h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  /* text-decoration: underline; */
+}
+
+#mypage-leftnav ul {
+  list-style: none;
+}
+
+#mypage-leftnav li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+
+#mypage-footer {
+  text-align: center;
+  background-color: #004c99;
+  color: white;
+  
+  padding: 15px;
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#js{
+  background-color: #e23157;
+}
+
+#js1{
+  
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+#js1>#max1{
+  line-height: 70px;
+  color: rgb(37, 187, 192);
+}
+
+#js2{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+div>#rev1{
+  line-height: 70px;
+  color: rgb(37, 187, 192);
+}
+
+#js3{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  
+}
+button{
+  padding: 5px;
+  margin: 5px;
+  background-color:cadetblue;
+
+}
+button:hover{
+  background-color: green;
+}
+input{
+  padding: 10px;
+  background-color: antiquewhite;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#js3>#l1{
+  line-height: 70px;
+  color: rgb(37, 187, 192);
+}
+
+#js4{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+}

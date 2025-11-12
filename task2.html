@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div id="mypage-header">
+        <header><h1 id="a1">Aravindkumar.S</h1></header>
+    </div>
+    
+    <div id="d1">
+    <div id="mypage-leftnav">
+        <nav>
+            <h1>Topics:</h1>
+            <ul>
+                <li>objectives</li>
+                <li>Technical skills</li>
+                <li>Education</li>
+                <li>Project</li>
+                <li>Certification</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mypage-centercontent">
+        <section>
+            <div id="obj">
+            <h2>Objectives:</h2>
+            <p>A youngster seeking an opportunity for employment with a good Logical, Technical and Analytical skills. I'm a
+strong hearted person who can quickly adapt to any situation and committed to show and grow my skills in
+future.</p>
+</div>
+
+    <div id="tech">
+
+    <h2>Technical skills:</h2>
+    <ul>
+        <li>Java (OOP, JDK, Collections, Exception), Python(Basic), HTML, CSS, JavaScript.</li>
+        <li> React.js (Components, Hooks, State, Props), Spring Boot , JDBC (Database Connectivity, CRUD Operations).</li>
+        <li>Postman, VS Code, Eclipse, GitHub.</li>
+    </ul>
+    </div>
+
+    <div id="edu">
+    <h2>Education:</h2>
+    <ol>
+        <li>Bachelor of Engineering (BE), EEE - Meenakshi Sundararajan Engineering College.</li>
+        <li>HSC- C.E.O.A. Matriculation Higher Secondary School.</li>
+        <li>SSLC - Sri Sundareswara Vidya Matriculation School.</li>
+    </ol>
+    </div>
+
+
+    <div id="proj">
+    <h2>Projects:</h2>
+    <h4>1.Banking Application:</h4>
+
+    <ul>
+        <li>User Module: Manages user registration(CRUD), authentication, and associations with accounts and
+loans.</li>
+<li>Account Module: Handles account creation, balance management, and links accounts with
+transactions.</li>
+<li>Loan Module: Processes loan applications, approvals, and repayment tracking with date-based
+updates.</li>
+<li>Transaction Module: Records deposits, withdrawals, and transfers while maintaining transaction history.</li>
+    </ul>
+
+    <h4>2.AI-Powered Email Writer:</h4>
+    <ul>
+        <li>Designed and developed a full-stack web application to generate email replies with selectable tones
+(Professional, Friendly, Casual, Custom).</li>
+<li>Implemented Spring Boot REST API to process user input, apply tone-based reply logic, and return refined
+responses.</li>
+<li>Ensured seamless integration between frontend and backend with proper API handling, validation, and CORS
+configuration</li>
+    </ul>
+    </div>
+
+    <div id="cer">
+
+    <h2>Certification:</h2>
+    <ul>
+        <li>Completed Java Full Stack Developer.</li>
+        <li>Certified in Python Programming(Basic).</li>
+    </ul>
+
+        </section>
+    </div>
+    </div>
+    <div id="mypage-footer">
+        <footer>
+            <p><span>Contact no:</span><strong id="pn1">9500917811</strong></p>
+            <p><span>Email Id:</span><strong>aravindkumar@gmail.com</strong></p>
+        </footer>
+    </div>
+    </div>
+
+
+    <div id="js">
+
+        <div id="js1">
+
+        <h1>find max of two number</h1>
+
+            <input type="number" id="n1" placeholder="number1">
+            <input type="number" id="n2" placeholder="number2">
+            <br><br>
+            <button type="button" onclick="max(Number(document.getElementById('n1').value),Number(document.getElementById('n2').value))">result</button><br>
+            <h3 id="max1"></h3>
+
+        </div>
+        
+        <div id="js2">
+        <h1>Reverse a string</h1>
+
+        <input type="text" placeholder="Enter text" id="t1">
+
+        <button onclick="reverse(document.getElementById('t1').value) ">Reverse</button>
+
+        <div>
+            <h2 id="rev1"></h2>
+        </div>
+        </div>
+
+
+        <div id="js3">
+
+        <h1>Find largest word</h1>
+        <input type="text" id="w1">
+        <button onclick="showlargestword()">Largest Word</button>
+
+        <h3 id="l1"></h3>
+
+        </div>
+
+        <div id="js4">
+        <h1>Cookies</h1>
+        <input type="text" placeholder="Enter name" id="c1"><br><br>
+        <input type="number" placeholder="Enter phone number" id="c2"><br><br>
+        <button onclick="savecookie()">Save</button>
+        </div>
+    </div>
+
+
+
+    <script src="./task1.js"></script>
+</body>
+</html>
